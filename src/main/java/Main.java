@@ -17,6 +17,10 @@ public class Main {
         FixedList<LocalDate> dates = new FixedList<>(2);
         dates.add(LocalDate.now());
         dates.add(LocalDate.now());
+//        dates.add(15); // Causes compile error
+        dates.add(LocalDate.of(2026, 12, 25));
 
+        System.out.println("Date list size: " + dates.getItems().size());
+        System.out.println(dates.getItems());
     }
 }
