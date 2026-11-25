@@ -16,7 +16,7 @@ public class Main {
         // Creating FixedList for LocalDate objects
         FixedList<LocalDate> dates = new FixedList<>(2);
         dates.add(LocalDate.now());
-        dates.add(LocalDate.now());
+        //dates.add(LocalDate.now());
 //        dates.add(15); // Causes compile error
         dates.add(LocalDate.of(2026, 12, 25));
 
